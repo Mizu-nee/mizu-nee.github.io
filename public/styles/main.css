@@ -1,12 +1,3 @@
-/*
-
-Profile card made by Domin,
-please do not modify anything but _colors.scss
-as it may lead to UI issues that I'm not responsible for.
-
-CSS last updated: 17th August 2022
-
-*/
 a {
   color: #00aff4;
   text-decoration: none;
@@ -402,16 +393,16 @@ body {
   }
 
   .profile .banner {
-    height: 60px;
+    height: 100px;
   }
 
   .badges {
-    top: 76px;
+    top: 125px;
     left: 120px;
   }
 
   .avatar {
-    top: 16px;
+    top: 55px;
   }
 
   .avatar img {
