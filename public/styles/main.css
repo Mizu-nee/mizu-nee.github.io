@@ -177,7 +177,7 @@ body {
 
 .profile .banner {
   height: 190px;
-  background-image: url('/public/banner.gif');
+  background-image: url('/public/banner.webp');
   background-size: cover;
 }
 
