@@ -13,16 +13,16 @@ async function fetchDiscordStatus() {
     let imagePath;
     switch (discord_status) {
       case "online":
-        imagePath = "/public/status/online.png";
+        imagePath = "/public/status/online.svg";
         break;
       case "idle":
-        imagePath = "/public/status/idle.png";
+        imagePath = "/public/status/idle.svg";
         break;
       case "dnd":
-        imagePath = "/public/status/dnd.png";
+        imagePath = "/public/status/dnd.svg";
         break;
       case "offline":
-        imagePath = "/public/status/offline.png";
+        imagePath = "/public/status/offline.svg";
         break;
       default:
         imagePath = "";
@@ -35,7 +35,7 @@ async function fetchDiscordStatus() {
         (activity) => activity.type === 1 && activity.url.includes("twitch.tv")
       )
     ) {
-      imagePath = "/public/status/streaming.png";
+      imagePath = "/public/status/streaming.svg";
     }
 
     // Cập nhật hình ảnh
