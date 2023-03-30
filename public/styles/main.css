@@ -186,8 +186,8 @@ body {
   margin: 28px 16px 16px;
   background: linear-gradient(to bottom, #f7efed, #fef3f4);
   border-radius: 5px;
-  max-height: 100%;
-  /* max-height: calc(100vh - 500px); */
+  /* max-height: 100%; */
+  /* max-height: calc(100vh - 100px); */
   /* overflow-x: hidden; */
 }
 
@@ -227,8 +227,20 @@ body {
   background-color: rgba(255, 255, 255, 0.06);
 }
 
+/* .bar {
+  margin-bottom: 12px;
+  height: 1px;
+  max-width: calc(100vw - 180px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2cdce;
+  margin: auto;
+} */
+
 .body {
   padding: 0 20px 16px 20px;
+  max-height: calc(100vh - 500px);
 }
 
 .body .title-body {
