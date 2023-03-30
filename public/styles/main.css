@@ -126,7 +126,7 @@ body {
 }
 
 .profile .header {
-  padding: 74px 16px 12px 16px;
+  padding: 16px 16px 12px 16px;
 }
 
 .profile #banner {
@@ -140,7 +140,8 @@ body {
   cursor: not-allowed;
 }
 .avatar {
-  border: 8px solid #f7efed;
+  border: 8px solid #f8eaea;
+  background-color: #f8eaea;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
@@ -158,12 +159,12 @@ body {
   -webkit-transform: translate(50%, 50%);
   transform: translate(50%, 50%);
   position: absolute;
-  background-color: #f7efed;
+  background-color: #f8eaea;
   bottom: 14.64%;
   right: 14.64%;
   border-radius: 50%;
   /* padding: 8px; */
-  border: 8px solid #f7efed;
+  border: 8px solid #f8eaea;
 }
 
 .status img {
@@ -171,6 +172,14 @@ body {
 }
 
 .badges {
+  padding: 2px 4px;
+  background-color: #fbf4f3;
+  border-radius: 8px;
+  margin-right: 299px;
+  /* -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 219px;
   left: 160px;
@@ -183,9 +192,11 @@ body {
 }
 
 .card {
-  margin: 28px 16px 16px;
+  /* margin: 24px 16px 16px; */
+  margin: 80px 16px 16px;
   background: linear-gradient(to bottom, #f7efed, #fef3f4);
   border-radius: 5px;
+  padding-top: -100px;
   /* max-height: 100%; */
   /* max-height: calc(100vh - 100px); */
   /* overflow-x: hidden; */
@@ -395,6 +406,7 @@ body {
   }
 
   .badges {
+    margin-right: 35px;
     top: 125px;
     left: 120px;
   }
@@ -418,7 +430,13 @@ body {
   .body {
     padding: 0 16px 16px 16px;
   }
+  .card {
+  margin: 24px 16px 16px;
+  background: linear-gradient(to bottom, #f7efed, #fef3f4);
+  border-radius: 5px;
+  padding-top: -100px;
 
+}
   .username {
   font-size: 20px;
   color: #060607;
