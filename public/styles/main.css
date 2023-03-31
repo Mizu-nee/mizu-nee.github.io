@@ -87,6 +87,7 @@ body {
   bottom: 0;
   display: block;
   background-image: url("/public/background.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
 }
