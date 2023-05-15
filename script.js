@@ -2,7 +2,7 @@
 // window.location.replace("https://mizu.is-a.dev");
 setTimeout(function () {
 	window.location.href = "https://mizu.is-a.dev";
-}, 500000); // Redirect to https://mizu.is-a.dev after 5s
+}, 5000); // Redirect to https://mizu.is-a.dev after 5s
 
 // can't inspect element
 document.addEventListener("keydown", function (e) {
