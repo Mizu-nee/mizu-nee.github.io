@@ -1,4 +1,1 @@
-# just my pesonal website.
-![Preview](https://raw.githubusercontent.com/MiyagawaMizu/miyagawamizu.github.io/main/preview.png)
-#
-<a href="https://github.com/Domin-MND/profile-card" target="_blank">Source</a>
+GitHub Pages Site (that just redirects to my official <a href="https://miyagawamizu.github.io/" target="_blank">website</a>)
